@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ex/BuggyQueue/BuggyQueue.iml" filepath="$PROJECT_DIR$/ex/BuggyQueue/BuggyQueue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ex/DownloadApplication/DownloadApplication.iml" filepath="$PROJECT_DIR$/ex/DownloadApplication/DownloadApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ex/GeoNamesApplication/GeoNamesApplication.iml" filepath="$PROJECT_DIR$/ex/GeoNamesApplication/GeoNamesApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ex/PingPong/console/PingPongConsole.iml" filepath="$PROJECT_DIR$/ex/PingPong/console/PingPongConsole.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ex/ThreadedDownload/ThreadedDownloads.iml" filepath="$PROJECT_DIR$/ex/ThreadedDownload/ThreadedDownloads.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ex/UniqueIDGeneratorApplication/UniqueIDGeneratorApplication.iml" filepath="$PROJECT_DIR$/ex/UniqueIDGeneratorApplication/UniqueIDGeneratorApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/assignments/week-1-assignment-0/W1-A0-SynchronizedQueueTest.iml" filepath="$PROJECT_DIR$/assignments/week-1-assignment-0/W1-A0-SynchronizedQueueTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/grading-drivers/week-1-assignment-0/W1-A0-SynchronizedQueueTest-Grading.iml" filepath="$PROJECT_DIR$/grading-drivers/week-1-assignment-0/W1-A0-SynchronizedQueueTest-Grading.iml" />
+      <module fileurl="file://$PROJECT_DIR$/assignments/week-1-assignment-0-v2/W1-A0-SynchronizedQueueTestv2.iml" filepath="$PROJECT_DIR$/assignments/week-1-assignment-0-v2/W1-A0-SynchronizedQueueTestv2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/assignments/week-2-assignment-1/W2-A1-SimpleAtomicLong.iml" filepath="$PROJECT_DIR$/assignments/week-2-assignment-1/W2-A1-SimpleAtomicLong.iml" />
+      <module fileurl="file://$PROJECT_DIR$/grading-drivers/week-2-assignment-1/W2-A1-SimpleAtomicLong-Grading.iml" filepath="$PROJECT_DIR$/grading-drivers/week-2-assignment-1/W2-A1-SimpleAtomicLong-Grading.iml" />
+      <module fileurl="file://$PROJECT_DIR$/assignments/week-3-assignment-2/W3-A2-PalantirManager.iml" filepath="$PROJECT_DIR$/assignments/week-3-assignment-2/W3-A2-PalantirManager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/grading-drivers/week-3-assignment-2/W3-A2-PalantirManager-Grading.iml" filepath="$PROJECT_DIR$/grading-drivers/week-3-assignment-2/W3-A2-PalantirManager-Grading.iml" />
+      <module fileurl="file://$PROJECT_DIR$/assignments/week-4-assignment-3/W4-A3-PingPongRight.iml" filepath="$PROJECT_DIR$/assignments/week-4-assignment-3/W4-A3-PingPongRight.iml" />
+      <module fileurl="file://$PROJECT_DIR$/grading-drivers/week-4-assignment-3/W4-A3-PingPongRight-Grading.iml" filepath="$PROJECT_DIR$/grading-drivers/week-4-assignment-3/W4-A3-PingPongRight-Grading.iml" />
+      <module fileurl="file://$PROJECT_DIR$/assignments/week-5-assignment-4/W5-A4-Android/W5-A4-Android.iml" filepath="$PROJECT_DIR$/assignments/week-5-assignment-4/W5-A4-Android/W5-A4-Android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/grading-drivers/week-5-assignment-4/W5-A4-Android/W5-A4-Android-Grading.iml" filepath="$PROJECT_DIR$/grading-drivers/week-5-assignment-4/W5-A4-Android/W5-A4-Android-Grading.iml" />
+      <module fileurl="file://$PROJECT_DIR$/assignments/week-5-assignment-4/W5-A4-Android-Test/W5-A4-Android-Test.iml" filepath="$PROJECT_DIR$/assignments/week-5-assignment-4/W5-A4-Android-Test/W5-A4-Android-Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/grading-drivers/week-5-assignment-4/W5-A4-Android-Test/W5-A4-Android-Test-Grading.iml" filepath="$PROJECT_DIR$/grading-drivers/week-5-assignment-4/W5-A4-Android-Test/W5-A4-Android-Test-Grading.iml" />
+      <module fileurl="file://$PROJECT_DIR$/assignments/week-6-assignment-5/W6-A5-ThreadedDownloads-StartedServices/W6-A5-ThreadedDownloads-StartedServices.iml" filepath="$PROJECT_DIR$/assignments/week-6-assignment-5/W6-A5-ThreadedDownloads-StartedServices/W6-A5-ThreadedDownloads-StartedServices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/grading-drivers/week-6-assignment-5/W6-A5-ThreadedDownloads-StartedServices/W6-A5-ThreadedDownloads-StartedServices-Grading.iml" filepath="$PROJECT_DIR$/grading-drivers/week-6-assignment-5/W6-A5-ThreadedDownloads-StartedServices/W6-A5-ThreadedDownloads-StartedServices-Grading.iml" />
+      <module fileurl="file://$PROJECT_DIR$/assignments/week-6-assignment-5/W6-A5-ThreadedDownloads-StartedServices-Tests/W6-A5-ThreadedDownloads-StartedServices-Tests.iml" filepath="$PROJECT_DIR$/assignments/week-6-assignment-5/W6-A5-ThreadedDownloads-StartedServices-Tests/W6-A5-ThreadedDownloads-StartedServices-Tests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/grading-drivers/week-6-assignment-5/W6-A5-ThreadedDownloads-StartedServices-Tests/W6-A5-ThreadedDownloads-StartedServices-Tests-Grading.iml" filepath="$PROJECT_DIR$/grading-drivers/week-6-assignment-5/W6-A5-ThreadedDownloads-StartedServices-Tests/W6-A5-ThreadedDownloads-StartedServices-Tests-Grading.iml" />
+      <module fileurl="file://$PROJECT_DIR$/assignments/week-7-assignment-6/iRemember/W7-A6-iRememberSecurity.iml" filepath="$PROJECT_DIR$/assignments/week-7-assignment-6/iRemember/W7-A6-iRememberSecurity.iml" />
+    </modules>
+  </component>
+</project>
+

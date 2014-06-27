@@ -2,6 +2,8 @@ package edu.vuum.mocca;
 
 import java.lang.ref.WeakReference;
 
+import android.content.Context;
+import android.net.Uri;
 import android.os.Handler;
 import android.os.Message;
 import android.view.View;
@@ -64,8 +66,7 @@ public class DownloadActivity extends DownloadBase {
     	}
     	
     	// Handle any messages that get sent to this Handler
-    	@Override
-		public void handleMessage(Message msg) {
+    	public void handleMessage(Message msg) {
     		
             // Get an actual reference to the DownloadActivity
             // from the WeakReference.
@@ -76,15 +77,16 @@ public class DownloadActivity extends DownloadBase {
             if (activity != null) {
                 // TODO - You fill in here to display the image
                 // bitmap that's been downloaded and returned to
-                // the DownloadActivity as a pathname who's Bundle
-            	// key is defined by DownloadUtils.PATHNAME_KEY
+                // the DownloadActivity as a pathname that's named
+                // "PATHNAME".
+            	activity.displayBitmap(msg.getData().getString("PATHNAME"));
             }
     	}
     }
 
     /**
      * Instantiate the MessengerHandler, passing in the
-     * DownloadActivity to be stored as a WeakReference
+     * DownloadActivity to help with garbage collection.
      */
     MessengerHandler handler = new MessengerHandler(this);
     
@@ -107,7 +109,9 @@ public class DownloadActivity extends DownloadBase {
             // TODO - You fill in here to start the
             // DownloadIntentService with the appropriate Intent
             // returned from the makeIntent() factory method.
-
+    		startService(
+				DownloadIntentService.makeIntent(this, handler, getUrlString())
+			);
             which = "Starting IntentService";
             break;
         
@@ -115,7 +119,9 @@ public class DownloadActivity extends DownloadBase {
             // TODO - You fill in here to start the
             // ThreadPoolDownloadService with the appropriate Intent
             // returned from the makeIntent() factory method.
-
+        	startService(
+        			ThreadPoolDownloadService.makeIntent(this, handler, getUrlString())
+			);
             which = "Starting ThreadPoolDownloadService";
             break;
         
@@ -126,5 +132,23 @@ public class DownloadActivity extends DownloadBase {
     	Toast.makeText(this,
                        which,
                        Toast.LENGTH_SHORT).show();
+    }
+
+    /** Called when this activity becomes visible after onStart().
+     * 	Also called when the activity is un-paused.
+     */
+    @Override
+        public void onResume() {
+        // Attach handler to looper.
+    	super.onResume();
+    }
+
+    /**
+     * Called when this activity becomes partially hidden.
+     */
+    @Override
+        public void onPause() {
+        // Remove handler from looper.
+    	super.onPause();    	
     }
 }

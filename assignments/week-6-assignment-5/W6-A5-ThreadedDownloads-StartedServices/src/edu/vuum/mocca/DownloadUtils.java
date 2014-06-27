@@ -32,17 +32,7 @@ public class DownloadUtils {
      * Used for debugging.
      */
     static final String TAG = "DownloadActivity";
-    
-    /**
-     * The key used to store/retrieve a Messenger extra from a Bundle.
-     */
-	public static final String MESSENGER_KEY = "MESSENGER";
 	
-	/**
-     * The key used to store/retrieve a file's pathname from a Bundle.
-     */
-	public static final String PATHNAME_KEY = "PATHNAME";
-    
     /**
      * If you have access to a stable Internet connection for testing
      * purposes, feel free to change this variable to false so it
@@ -50,7 +40,7 @@ public class DownloadUtils {
      */
     // TODO - You can change this to the appropriate setting for your
     // environment.
-    static final boolean DOWNLOAD_OFFLINE = true;
+    static final boolean DOWNLOAD_OFFLINE = false;
     
     /**
      * Make an Intent which will start a service if provided as a
@@ -87,7 +77,7 @@ public class DownloadUtils {
     	
     	Intent intent = new Intent(context,
                                    service);
-    	intent.putExtra(MESSENGER_KEY, 
+    	intent.putExtra("MESSENGER", 
                         messenger);
     	intent.setData(Uri.parse(uri));
     	
@@ -105,7 +95,7 @@ public class DownloadUtils {
                                  Messenger messenger) {
         Message msg = Message.obtain();
         Bundle data = new Bundle();
-        data.putString(PATHNAME_KEY,
+        data.putString("PATHNAME",
                        outputPath);
         
         // Make the Bundle the "data" of the Message.
